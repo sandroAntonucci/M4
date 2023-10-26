@@ -80,8 +80,9 @@ article{
 
 .videojuegos article{
     margin-top: 0px;
-    padding: 20px;
-    width: 480px;
+    margin: 20px;
+    padding: 0px;
+    width: 430px;
     height: 500px;
 
     border: solid 1px #ffc045;
@@ -92,10 +93,42 @@ li{
     margin: 0px;
 }
 
-h3{
-    color: green;
+.linkVideojuegos{
+    background-color: #ffc045;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 80px;
+    height: 30px;    
+    position:relative;
+    top: 180px; left: 330px;
 }
 
-.hiddenText{
+.linkVideojuegos:hover{
+    
+    background-color: #047a92;
+}
+
+.linkVideojuegos a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+h3{
+    color: #ffc045;
+}
+
+.textoVideojuegos{
+    position:relative;
+    top: -40px; left: 0px;
+    padding: 10px;
+    font-weight: lighter;
+
+}
+
+.textoEscondido{
     display: none;
 }
