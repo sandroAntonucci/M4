@@ -92,6 +92,10 @@ li{
     margin: 0px;
 }
 
+h3{
+    color: green;
+}
+
 .hiddenText{
     display: none;
 }
